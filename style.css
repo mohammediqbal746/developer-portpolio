@@ -18,8 +18,9 @@ h1{
 span{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
+    margin:5%;
 }
 ,.half-width-img{
     width: 100%;
@@ -32,6 +33,25 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    
 
+
+}
+.my-mission{
+    padding-left: 30%;
+}
+.one-third-width{
+    box-shadow: 10px 10px 20px rgb(98, 23, 219);
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:33% ;
+    border: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    
+}
+.resize{
+    width: 200px;
+    height: 200px;
 }
